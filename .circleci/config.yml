@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build_model:
     machine:
-      resource_class: gpu.nvidia.large
+      resource_class: gpu.nvidia.small.multi
       image: linux-cuda-11:default
     steps:
       - checkout
